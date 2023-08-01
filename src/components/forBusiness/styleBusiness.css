@@ -1,0 +1,143 @@
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  background-color: #FFCD1E;
+  border-radius: 0;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all opacity 10s visibility 10s;
+  z-index: 8;
+}
+
+#backToTopBtn.show {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#backToTopBtn.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-business {
+  position: sticky;
+  top: 240px;
+  margin-left: 3rem;
+  z-index: 10;
+}
+.nav-business ul {
+  list-style: none;
+}
+.nav-business li {
+  margin-top: 1rem;
+}
+.nav-business ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline;
+}
+.nav-business ul li a:hover {
+  color: #FFCD1E;
+}
+.nav-business ul li a:active {
+  color: #273968;
+}
+
+.section-intro {
+  margin-top: -150px;
+}
+.section-intro img {
+  width: 100%;
+  position: relative;
+}
+
+.section-intro__info {
+  position: absolute;
+  top: 30vh;
+  color: white;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.section-intro__info h1 {
+  font-size: 3.2rem;
+}
+.section-intro__info p {
+  margin-top: 1.4rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.section-intro__info span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.section-intro__info a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.4s;
+}
+.section-intro__info a:hover {
+  color: #FFCD1E;
+}
+
+.section-intro__icons div {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 44%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.section-intro__icons img {
+  flex-direction: column;
+  margin-left: 7rem;
+}
+
+.section-reasons {
+  margin-top: 7rem;
+}
+.section-reasons div {
+  width: 68px;
+  height: 2.4px;
+  margin-right: 0.6rem;
+  background-color: #FFCD1E;
+  border: none;
+  display: inline-block;
+}
+.section-reasons span {
+  color: #FFCD1E;
+  letter-spacing: 0.4px;
+  vertical-align: middle;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.section-reasons h2 {
+  color: #273968;
+  line-height: 1.1;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.section-reasons p {
+  width: 90%;
+  text-align: left;
+  line-height: 2;
+  margin-top: 1.5rem;
+  font-size: 1.04rem;
+}
+
+.section-stages {
+  margin-top: 50rem;
+}/*# sourceMappingURL=styleBusiness.css.map */

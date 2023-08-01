@@ -1,0 +1,178 @@
+// scroll btn style
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: #FFCD1E;
+    border-radius: 0;
+    padding: .3rem .5rem;
+    border: none;
+    cursor: pointer;
+    transition: all opacity 10s visibility 10s;
+    z-index: 8;
+}
+
+#backToTopBtn.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+#backToTopBtn.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+// nav style
+.nav-business {
+    position: sticky;
+    top: 240px;
+    margin-left: 3rem;
+    z-index: 10;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin-top: 1rem;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        transition: all .4s;
+        font-weight: 700;
+        font-size: .9rem;
+        display: inline;
+    }
+
+    ul li a:hover {
+        color: #FFCD1E;
+    }
+
+    ul li a:active {
+        color: #273968;
+    }
+}
+
+// intro style
+.section-intro {
+    margin-top: -150px;
+
+    img {
+        width: 100%;
+        position: relative;
+    }
+}
+
+.section-intro__info {
+    position: absolute;
+    top: 30vh;
+    color: white;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    box-sizing: border-box;
+    z-index: 3;
+
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    p {
+        margin-top: 1.4rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 1.1rem;
+        transition: all .4s;
+    }
+
+    a:hover {
+        color: #FFCD1E;
+    }
+}
+
+.section-intro__icons {
+    div {
+        position: absolute;
+        bottom: .5rem;
+        left: 44%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+
+    img {
+        flex-direction: column;
+        margin-left: 7rem;
+    }
+}
+
+// reasons style
+.section-reasons {
+    margin-top: 7rem;
+
+    div {
+        width: 68px;
+        height: 2.4px;
+        margin-right: .6rem;
+        background-color: #FFCD1E;
+        border: none;
+        display: inline-block;
+    }
+
+    span {
+        color: #FFCD1E;
+        letter-spacing: .4px;
+        vertical-align: middle;
+
+        font: {
+            size: 1.1rem;
+            weight: 700
+        }
+    }
+
+    h2 {
+        color: #273968;
+        line-height: 1.1;
+
+        margin: {
+            top: 1.5rem;
+            bottom: 4rem;
+        }
+
+        padding: {
+            left: 5rem;
+            right: 5rem;
+        }
+
+        font: {
+            size: 2.5rem;
+            weight: 700;
+        }
+    }
+
+    p {
+        width: 90%;
+        text-align: left;
+        line-height: 2;
+        margin-top: 1.5rem;
+        font-size: 1.04rem;
+    }
+}
+
+// stages style
+.section-stages {
+    margin-top: 50rem;
+}
