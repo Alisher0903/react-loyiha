@@ -1,7 +1,7 @@
 function Blog() {
     return (
         <div>
-            Blog
+            Blog user
         </div>
     );
 }
