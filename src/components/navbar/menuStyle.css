@@ -16,7 +16,7 @@
     color: #FFCD1E;
 }
 
-.navbar-menu__brend a:active {
+.navbar-menu__brend a:focus {
     color: red;
 }
 
