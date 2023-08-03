@@ -9,19 +9,22 @@ import AboutCompany from "../aboutCompany/AboutCompany";
 import Projects from "../projects/Projects";
 import Blog from "../blog/Blog";
 
+
+// yaxshi zur buladi
+
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/search" element={<Search />}/>
-        <Route path="/business" element={<ForBusiness />}/>
-        <Route path="/private/individuals" element={<PrivateIndividual />}/>
-        <Route path="/products" element={<Products />}/>
-        <Route path="/warranty" element={<Warranty />}/>
-        <Route path="/about/company" element={<AboutCompany />}/>
-        <Route path="/projects" element={<Projects />}/>
-        <Route path="/blog" element={<Blog />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/business" element={<ForBusiness />} />
+        <Route path="/private/individuals" element={<PrivateIndividual />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/warranty" element={<Warranty />} />
+        <Route path="/about/company" element={<AboutCompany />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );
