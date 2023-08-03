@@ -1,9 +1,8 @@
 import NavbarInfo from "../navbar/NavbarInfo";
 import NavbarMenu from "../navbar/NavbarMenu";
-import Footer from "../footer/Footer"
-import "./style.css"
+import Footer from "../footer/Footer";
 
-function PrivateIndividual() {
+function Contact() {
 
     // scroll btn
     window.addEventListener('scroll', () => {
@@ -25,8 +24,8 @@ function PrivateIndividual() {
 
     return (
         <div>
-            <NavbarInfo/>
-            <NavbarMenu/>
+            <NavbarInfo />
+            <NavbarMenu />
 
             {/* scroll buluvchi btn */}
             <button id="backToTopBtn" onClick={scrollToTop}>
@@ -42,4 +41,4 @@ function PrivateIndividual() {
         </div>
     );
 }
-export default PrivateIndividual;
+export default Contact;

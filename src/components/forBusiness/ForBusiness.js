@@ -8,6 +8,7 @@ import OnRoof from "./OnRoof";
 import OnGround from "./OnGround";
 import Autonomous from "./Autonomous";
 import Network from "./Network"
+import Footer from "../footer/Footer";
 import { toast } from "react-toastify";
 
 function ForBusiness() {
@@ -259,7 +260,7 @@ function ForBusiness() {
                     </Col>
                 </Row>
             </section>
-
+            <Footer />
         </div>
     );
 }

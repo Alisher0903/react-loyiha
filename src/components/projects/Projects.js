@@ -1,5 +1,6 @@
 import NavbarInfo from "../navbar/NavbarInfo";
 import NavbarMenu from "../navbar/NavbarMenu";
+import Footer from "../footer/Footer"
 
 function Projects() {
 
@@ -34,6 +35,9 @@ function Projects() {
                     </g>
                 </svg>
             </button>
+
+            {/* footer */}
+            <Footer />
         </div>
     );
 }

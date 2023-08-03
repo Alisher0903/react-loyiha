@@ -1,5 +1,6 @@
 import NavbarInfo from "../navbar/NavbarInfo";
 import NavbarMenu from "../navbar/NavbarMenu";
+import Footer from "../footer/Footer";
 
 function Products() {
 
@@ -35,7 +36,7 @@ function Products() {
                 </svg>
             </button>
 
-
+            <Footer />
         </div>
     );
 }

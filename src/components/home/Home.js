@@ -8,6 +8,7 @@ import Aos from "aos";
 import { Link } from "react-router-dom";
 import AliceCarousel from "react-alice-carousel";
 import { toast } from "react-toastify";
+import Footer from "../footer/Footer";
 
 function Home() {
 
@@ -825,6 +826,7 @@ function Home() {
                     </Row>
                 </ModalBody>
             </Modal>
+            <Footer />
         </div>
     );
 }
