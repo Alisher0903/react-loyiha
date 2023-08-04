@@ -70,7 +70,7 @@ function Home() {
     const items = [
         <div key={1} className="slinder-item ms-4">
             <img className="img-fluid" src="https://solara.uz/assets/images/6d/6d8905_03.jpg" alt="img1" />
-            <div className="read-more-icon ms-3">
+            <div className="read-more-icon">
                 <a href="https://solara.uz/ru/projects/ani-product-ru">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
@@ -321,14 +321,13 @@ function Home() {
     const responsive = {
         0: { items: 1 },
         600: { items: 2 },
-        992: { items: 3 }
+        1200: { items: 3 }
     };
 
     const responsivePartner = {
         0: { items: 1 },
         400: { items: 2 },
-        600: { items: 3 },
-        991: { items: 4 }
+        1000: { items: 4 }
     }
 
     // links
@@ -375,7 +374,7 @@ function Home() {
                                 data-aos-easing="linear">Сделай шаг к солнцу</h1>
                             <Row className="home-carousel__btn">
                                 <Col className="col-12 mb-3 col-md-6 mb-md-0">
-                                    <Button className="rounded-0 float-md-end animated-button" onClick={linkId}>
+                                    <Button className="rounded-0 float-md-end mt-0 animated-button" onClick={linkId}>
                                         Подробнее
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" class="bi bi-arrow-right-short ms-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -400,7 +399,7 @@ function Home() {
                             <h1 data-aos="fade-down" data-aos-easing="linear">Солнечные <br /> электростанции под ключ</h1>
                             <Row className="home-carousel__btn" data-aos="fade-up">
                                 <Col className="col-12 mb-3 col-md-6 mb-md-0">
-                                    <Button className="rounded-0 animated-button float-md-end" onClick={linkId}>
+                                    <Button className="rounded-0 mt-0 animated-button float-md-end" onClick={linkId}>
                                         Подробнее
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" class="bi bi-arrow-right-short ms-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -425,7 +424,7 @@ function Home() {
                             <h1 data-aos="fade-down" data-aos-easing="linear">Готовые решения для <br /> вашего дома</h1>
                             <Row className="home-carousel__btn" data-aos="fade-up">
                                 <Col className="col-12 mb-3 col-md-6 mb-md-0">
-                                    <Button className="rounded-0 animated-button float-md-end" onClick={linkId}>
+                                    <Button className="rounded-0 mt-0 animated-button float-md-end" onClick={linkId}>
                                         Подробнее
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" class="bi bi-arrow-right-short ms-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -450,7 +449,7 @@ function Home() {
                             <h1 data-aos="fade-down" data-aos-easing="linear">Солнечные <br /> электростанции под ключ</h1>
                             <Row className="home-carousel__btn" data-aos="fade-up">
                                 <Col className="col-12 mb-3 col-md-6 mb-md-0">
-                                    <Button className="rounded-0 animated-button float-md-end" onClick={linkId}>
+                                    <Button className="rounded-0 mt-0 animated-button float-md-end" onClick={linkId}>
                                         Подробнее
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" class="bi bi-arrow-right-short ms-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -475,7 +474,7 @@ function Home() {
                             <h1 data-aos="fade-down" data-aos-easing="linear" style={{ color: "white" }}>TAKE ADVANTAGE OF THE <br /> UZBEKISTAN SUN</h1>
                             <Row className="home-carousel__btn">
                                 <Col className="col-12 mb-3 col-md-6 mb-md-0">
-                                    <Button className="rounded-0 animated-button float-md-end" onClick={linkId}>
+                                    <Button className="rounded-0 mt-0 animated-button float-md-end" onClick={linkId}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" class="bi bi-arrow-right-short ms-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                                         </svg>
@@ -508,7 +507,7 @@ function Home() {
                 </div>
                 <Row className="mt-5 w-100">
                     <Col className="col-12 col-lg-4">
-                        <div className="home-business ms-5 ps-5">
+                        <div className="home-business ms-5 mt-5 ps-5">
                             <img src="https://solara.uz/assets/images/d1/d1324f_home-icon1.png" alt="img-icon" />
                             <h3 className="mt-3">Для бизнеса</h3>
                             <p className="mt-3">
@@ -522,17 +521,17 @@ function Home() {
                             </Button>
                         </div>
                     </Col>
-                    <Col className="text-center col-12 col-lg-4">
+                    <Col className="text-center mt-5 mt-lg-0 ms-2 ms-lg-0 col-12 col-lg-4">
                         <img src="https://solara.uz/resources/img/home-business.png" alt="business.png" className="img-fluid" />
                     </Col>
                     <Col className="col-12 col-lg-4">
-                        <div className="home-business me-5">
+                        <div className="home-business ms-5 mt-5 me-5">
                             <img src="https://solara.uz/assets/images/7b/7be249_home-icon2.png" alt="img-icon2" />
                             <h3 className="mt-3">Частным Лицам</h3>
                             <p className="mt-3">
                                 Переход на альтернативную энергетику, гарантирует стабильное питание вашего дома и существенно снижает затраты на электроэнергию
                             </p>
-                            <Button className="rounded-0 mt-5 me-5 float-end animated-button" onClick={individuals}>
+                            <Button className="rounded-0 mt-5 ms-5 ms-lg-0 me-lg-5 float-end animated-button" onClick={individuals}>
                                 Частным Лицам
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-arrow-right-short ms-2" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -545,33 +544,32 @@ function Home() {
 
             {/* statistica */}
             <div className="statistics">
-                <div className="container">
+                <div className="container statistic-box">
                     <Row className="text-center w-100">
-                        <Col>
+                        <Col className="col-sm-6 col-md-6 col-lg-3">
                             <h2>765+</h2>
                             <p>УСТАНОВКИ</p>
                         </Col>
-                        <Col>
+                        <Col className="col-sm-6 col-md-6 col-lg-3">
                             <h2>94Вт/ч</h2>
                             <p>ВЫРАБОТКА ЭЛЕКТРОЭНЕРГИИ</p>
                         </Col>
-                        <Col>
+                        <Col className="col-sm-6 col-md-6 col-lg-3">
                             <h2>72млн</h2>
                             <p>ЭКОНОМИЯ</p>
                         </Col>
-                        <Col>
+                        <Col className="col-sm-6 col-md-6 col-lg-3">
                             <h2>523</h2>
                             <p>КЛИЕНТОВ</p>
                         </Col>
                     </Row>
                 </div>
-
             </div>
 
             {/* guarantee */}
             <div className="mt-5 ">
                 <Row className="w-100">
-                    <Col className="col-lg-4">
+                    <Col className="col-12 col-lg-4">
                         <div className="ms-2">
                             <div className="span-blur"></div>
                             <span className="span-text">Наше Прпреимущества</span>
@@ -589,7 +587,7 @@ function Home() {
                             </Button>
                         </div>
                     </Col>
-                    <Col className="ms-5 me-5 guarantee-carousels">
+                    <Col className="ms-lg-0 ms-2 me-5 mt-5 mt-lg-0 col-12 col-lg-7 guarantee-carousels">
                         <Carousel>
                             <Carousel.Item>
                                 <div className="guarantee-carousel">
@@ -649,14 +647,14 @@ function Home() {
             </div>
 
             {/* Our production */}
-            <div className="mt-5">
-                <div className="text-center">
+            <div className="pt-0 pt-lg-5">
+                <div className="text-center section-production">
                     <div className="span-blur"></div>
                     <span className="span-text">Ваше солнечное будущее</span>
                     <h1 className="we-offer mt-3">Наша продукция</h1>
                 </div>
                 <Row className="w-100 mt-5 ps-5 pe-4">
-                    <Col className="col-md-6">
+                    <Col className="col-12 col-lg-6 mt-3">
                         <Link to="https://solara.uz/ru/products/solnechnie-batareya-ls-450-bl" style={{ textDecoration: "none" }}>
                             <div className="mt-3 production-box  production-1">
                                 <img className="w-100" src="https://solara.uz/assets/images/bb/bb6d96_Productivity.jpg" alt="img1" />
@@ -664,9 +662,9 @@ function Home() {
                             <span className="production-box__span">Солнечные станция</span>
                         </Link>
                     </Col>
-                    <Col className="col-md-6">
+                    <Col className="col-12 col-lg-6">
                         <Row className="w-100">
-                            <Col className="col-6">
+                            <Col className="col-12 col-md-6">
                                 <Link to="https://solara.uz/ru/products/solnechnie-batareya-la-450wt" style={{ textDecoration: "none" }}>
                                     <div className="mt-3 production-box">
                                         <img className="w-100" src="https://solara.uz/assets/images/f7/f78ecd_628667-01.jpg" alt="img2" />
@@ -674,7 +672,7 @@ function Home() {
                                     <span className="production-box__span">Солнечные батарея LS450HC</span>
                                 </Link>
                             </Col>
-                            <Col className="col-6">
+                            <Col className="col-12 col-md-6">
                                 <Link to="https://solara.uz/ru/products/invertor-solis-1P4K-4G" style={{ textDecoration: "none" }}>
                                     <div className="mt-3 production-box">
                                         <img className="w-100" src="https://solara.uz/assets/images/38/386e9a_Inverter-Solis-1P4K-4G.jpg" alt="img3" />
@@ -682,7 +680,7 @@ function Home() {
                                     <span className="production-box__span">Инвертор Солис 1П4К-4Г</span>
                                 </Link>
                             </Col>
-                            <Col className="col-6">
+                            <Col className="col-12 col-md-6">
                                 <Link to="https://solara.uz/ru/products/invertor-solis-1P5K-4G" style={{ textDecoration: "none" }}>
                                     <div className="mt-3 production-box">
                                         <img className="w-100" src="https://solara.uz/assets/images/9e/9e6972_Inverter-Solis-1P5K-4G.jpg" alt="img4" />
@@ -690,7 +688,7 @@ function Home() {
                                     <span className="production-box__span">Инвертор Солис 1П5К-4Г</span>
                                 </Link>
                             </Col>
-                            <Col className="col-6">
+                            <Col className="col-12 col-md-6">
                                 <Link to="https://solara.uz/ru/products/invertor-solis-1P6K-4G" style={{ textDecoration: "none" }}>
                                     <div className="mt-3 production-box">
                                         <img className="w-100" src="https://solara.uz/assets/images/8d/8d9a12_Inverter-Solis-1P6K-4G.jpg" alt="img5" />
@@ -706,7 +704,7 @@ function Home() {
             {/* Our projects */}
             <div className="mt-5 pt-5">
                 <Row className="w-100">
-                    <Col className="col-lg-8">
+                    <Col className="col-12 col-lg-8">
                         <AliceCarousel
                             mouseTracking
                             items={items}
@@ -718,7 +716,7 @@ function Home() {
                             responsive={responsive}
                         />
                     </Col>
-                    <Col className="col-4">
+                    <Col className="col-12 col-lg-4 px-5 px-lg-2">
                         <div className="span-blur"></div>
                         <span className="span-text">Последние Проекты</span>
                         <h1 className="we-offer mt-3 fw-bold">Наши Проекты</h1>
@@ -754,7 +752,7 @@ function Home() {
                             </svg>
                         </Button>
                     </Col>
-                    <Col className="col-lg-8">
+                    <Col className="col-lg-8 mt-5 mt-lg-0">
                         <AliceCarousel
                             mouseTracking
                             items={itemsTwo}

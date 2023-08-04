@@ -1,6 +1,8 @@
 import NavbarInfo from "../navbar/NavbarInfo";
 import NavbarMenu from "../navbar/NavbarMenu";
 import Footer from "../footer/Footer";
+import "./style.css"
+import { Link } from "react-router-dom";
 
 function Products() {
 
@@ -35,6 +37,14 @@ function Products() {
                     </g>
                 </svg>
             </button>
+
+            <div className="product__bg">
+                <img className="img-fluid" src="http://solara.uz/assets/images/7d/7df8e0_All-Solar-Products.jpg" alt="img" />
+                <div className="product-info text-center">
+                    <h4>Продукты</h4>
+                    <Link to="/">Главная</Link>/<span>Продукты</span>
+                </div>
+            </div>
 
             <Footer />
         </div>

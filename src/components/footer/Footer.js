@@ -1,4 +1,4 @@
-import { Button, Col, List, Row } from 'reactstrap';
+import { Button, Col, Input, List, Row } from 'reactstrap';
 import './footer.css';
 import { Link } from 'react-router-dom';
 
@@ -67,31 +67,31 @@ function Futer() {
               <List type="unstyled">
                 <li className='mb-4 fontS'>Быстрые ссылки</li>
                 <li className='mb-3'>
-                  <Link className='linkT' to="https://solara.uz/ru/site/about-company">
+                  <Link className='linkT' to="/about/company">
                     <span className='slash me-2'>//</span>
                     О компании
                   </Link>
                 </li>
                 <li className='mb-3'>
-                  <Link className='linkT' to="https://solara.uz/ru/blog/index">
+                  <Link className='linkT' to="/blog">
                     <span className='slash me-2'>//</span>
                     Блог
                   </Link>
                 </li>
                 <li className='mb-3'>
-                  <Link className='linkT' to="https://solara.uz/ru/products/index">
+                  <Link className='linkT' to="/products">
                     <span className='slash me-2'>//</span>
                     Продукты
                   </Link>
                 </li>
                 <li className='mb-3'>
-                  <Link className='linkT' to="https://solara.uz/ru/site/for-individuals">
+                  <Link className='linkT' to="/private/individuals">
                     <span className='slash me-2'>//</span>
                     Частным лицам
                   </Link>
                 </li>
                 <li className='mb-3'>
-                  <Link className='linkT' to="https://solara.uz/ru/site/for-business">
+                  <Link className='linkT' to="/business">
                     <span className='slash me-2'>//</span>
                     Для бизнеса
                   </Link>
@@ -103,7 +103,7 @@ function Futer() {
                   </Link>
                 </li>
                 <li className='mb-3'>
-                  <Link className='linkT' to="https://solara.uz/ru/site/contacts">
+                  <Link className='linkT' to="/contacts">
                     <span className='slash me-2'>//</span>
                     Контакты
                   </Link>
@@ -119,7 +119,7 @@ function Futer() {
                   Подпишитесь на нашу рассылку новостей и событий прямо сейчас, чтобы быть в курсе
                 </li>
                 <li>
-                  <input type='email' class="form-control rounded-0 mt-2 py-3" placeholder="Эл. адрес " />
+                  <Input type='email' className="rounded-0 mt-3 py-2" size="lg" placeholder="Эл. адрес " />
                 </li>
                 <li>
                   <Button type="submit" className="rounded-0 w-100 animated-button">

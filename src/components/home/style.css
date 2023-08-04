@@ -84,7 +84,6 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
 }
-
 /* *-*-*-*-*- */
 .animated-button__two {
     padding: .8rem 2rem;
@@ -194,10 +193,6 @@
     letter-spacing: .5px;
 }
 
-.home-business {
-    margin-top: 10rem;
-}
-
 .home-business h3 {
     color: #273968;
     font-weight: 700;
@@ -209,7 +204,6 @@
     font-size: 1rem;
     letter-spacing: .02px;
 }
-
 /* end солнечные решения */
 
 /* statistic */
@@ -217,25 +211,25 @@
     background-image: url("https://solara.uz/resources/img/about-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(40%);
     width: 100%;
     margin-top: 7rem;
 }
 
-.statistics h2 {
-    margin-top: 6.5rem;
-    font-weight: 900;
-    font-size: 3.5rem;
-    color: red;
+.statistic-box {
+    width: 100%;
 }
 
-.statistics p {
-    margin-bottom: 6.2rem;
-    font-weight: 500;
-    font-size: 1.15rem;
+.statistic-box h2 {
+    font-weight: 900;
+    font-size: 3.5rem;
     color: white;
 }
 
+.statistic-box p {
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: #FFCD1E;
+}
 /* end statistic */
 
 /* guarantee style */
@@ -308,10 +302,6 @@
     transform: scale(1.08);
 }
 
-.production-1 {
-    height: 717px;
-}
-
 .production-box img:hover {
     transform: scale(1.25);
 }
@@ -332,17 +322,15 @@
 /* Our projects style and new events */
 .slider-item img {
     position: relative;
-    z-index: 0;
 }
 
 .read-more-icon {
     position: absolute;
-    left: 10%;
-    top: 7%;
+    left: 5%;
+    top: 5%;
     width: 80%;
-    height: 65%;
+    height: 60%;
     background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1;
 }
 
 .read-more-icon a {
@@ -354,7 +342,6 @@
     color: white;
     background-color: #FFCD1E;
     padding: .6rem 1rem;
-    z-index: 1;
 }
 
 .blog-content a {
@@ -401,5 +388,49 @@
 
     .production-1 {
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-carousel h1 {
+        font-size: 2rem;
+    }
+
+    .home-business {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        padding: 2rem 1rem;
+    }
+
+    .home-business button {
+        transform: translateX(-60%);
+    }
+
+    .statistics {
+        margin-top: 1rem;
+    }
+
+    .statistic-box h2 {
+        font-size: 2rem;
+    }
+
+    .statistic-box p {
+        font-size: .9rem;
+    }
+
+    .span-text {
+        font-size: 1rem;
+    }
+
+    .we-offer {
+        font-size: 2rem;
+    }
+
+    .company-benefits__box h2 {
+        font-size: 2rem;
+    }
+
+    .section-production {
+        margin-top: -7rem;
     }
 }
