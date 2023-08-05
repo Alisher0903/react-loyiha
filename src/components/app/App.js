@@ -8,6 +8,7 @@ import Warranty from "../warranty/Warranty";
 import AboutCompany from "../aboutCompany/AboutCompany";
 import Projects from "../projects/Projects";
 import Blog from "../blog/Blog";
+import Contact from "../contacts/Contact";
 
 
 // yaxshi zur buladi
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about/company" element={<AboutCompany />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/contacts" element={<Contact />} />
       </Routes>
     </>
   );

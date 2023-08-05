@@ -63,7 +63,7 @@ function ForBusiness() {
     };
 
     return (
-        <div>
+        <div className="main">
             <NavbarInfo />
             <NavbarMenu />
 
@@ -77,7 +77,7 @@ function ForBusiness() {
             </button>
 
             {/* navbar */}
-            <nav className="nav-business">
+            <nav className="nav-business d-none d-xl-inline">
                 <ul>
                     <NavItem><NavLink href="#intro">Решения для бизнеса</NavLink></NavItem>
                     <NavItem><NavLink href="#reasons">Причины использования</NavLink></NavItem>
@@ -91,7 +91,7 @@ function ForBusiness() {
             {/* intro section */}
             <section id="intro">
                 <div className="section-intro">
-                    <img src="https://solara.uz/assets/images/93/93cebe_Solar-Panels-For-Business.jpg" alt="img" />
+                    <img className="img-fluid section-intro__img" src="https://solara.uz/assets/images/28/281d04_bg-buisness.jpg" alt="img" />
                     <Container className="text-center">
                         <div className="section-intro__info">
                             <h1>Комплексные решения для бизнеса в сфере солнечной энергетики</h1>
@@ -100,16 +100,14 @@ function ForBusiness() {
                             <span className="ms-3 me-3">/</span>
                             <span>Для бизнеса</span>
                         </div>
-                        <div className="section-intro__icons">
-                            <div>
-                                <img src="https://solara.uz/images/2472_i9FkXWszVFjJhlMTmmjlz1LHbAWkawVm.svg" alt="img1" />
-                                <img src="https://solara.uz/images/2473_fcAoKI8ap9D1EpDnrXizYJK_2uO-LIUv.svg" alt="img2" />
-                                <img src="https://solara.uz/images/2474_MV94wBlmXJqQczUbaor-_PnnHWm-yvZx.svg" alt="img3" />
-                                <img src="https://solara.uz/images/2475_7SKYiqApAN74e5lKZNzCtxahxm7_DqjV.svg" alt="img4" />
-                                <img src="https://solara.uz/images/2476_iCjaJmK-UoNNzfs_Nv_LtDn9hP133eot.svg" alt="img5" />
-                                <img src="https://solara.uz/images/2477_0xy3wGJ8GGQHDdGlakniUbQBPPoS2Dgw.svg" alt="img6" />
-                                <img src="https://solara.uz/images/2478_Qc_sQE2XZ2HsahCYRg6qwgfLgfX7QzjR.svg" alt="img7" />
-                            </div>
+                        <div className="section-intro__icons d-none d-lg-inline">
+                            <img src="https://solara.uz/images/2472_i9FkXWszVFjJhlMTmmjlz1LHbAWkawVm.svg" alt="img1" />
+                            <img src="https://solara.uz/images/2473_fcAoKI8ap9D1EpDnrXizYJK_2uO-LIUv.svg" alt="img2" />
+                            <img src="https://solara.uz/images/2474_MV94wBlmXJqQczUbaor-_PnnHWm-yvZx.svg" alt="img3" />
+                            <img src="https://solara.uz/images/2475_7SKYiqApAN74e5lKZNzCtxahxm7_DqjV.svg" alt="img4" />
+                            <img src="https://solara.uz/images/2476_iCjaJmK-UoNNzfs_Nv_LtDn9hP133eot.svg" alt="img5" />
+                            <img src="https://solara.uz/images/2477_0xy3wGJ8GGQHDdGlakniUbQBPPoS2Dgw.svg" alt="img6" />
+                            <img src="https://solara.uz/images/2478_Qc_sQE2XZ2HsahCYRg6qwgfLgfX7QzjR.svg" alt="img7" />
                         </div>
                     </Container>
                 </div>

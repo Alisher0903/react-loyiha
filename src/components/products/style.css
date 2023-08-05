@@ -21,4 +21,44 @@
 #backToTopBtn.hide {
   opacity: 0;
   visibility: hidden;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.product__bg {
+  overflow: hidden;
+}
+
+.product__bg img {
+  position: relative;
+  margin-top: 11.8rem;
+  transform: scale(1.4);
+}
+
+.product-info {
+  position: absolute;
+  color: white;
+  top: 30vh;
+  transform: translateX(270%);
+}
+
+.product-info h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #273968;
+}
+
+.product-info a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-right: .5rem;
+  transition: all .5s;
+  &:hover {
+    color: #FFCD1E;
+  }
+}
+
+.product-info span {
+  font-weight: 700;
+  margin-left: .5rem;
+  color: #273968;
+}
