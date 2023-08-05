@@ -10,6 +10,9 @@ import Projects from "../projects/Projects";
 import Blog from "../blog/Blog";
 import Contact from "../contacts/Contact";
 
+
+// yaxshi zur buladi
+
 function App() {
   return (
     <>
